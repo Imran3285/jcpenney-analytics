@@ -1,4 +1,4 @@
-# 🛍️ JCPenney Customer Targeting — Advanced Data Analytics
+# 🛍️ JCPenney Customer Targeting — Advanced Analytics & Machine Learning
 
 <div align="center">
 

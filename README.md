@@ -123,6 +123,25 @@ Each agent passes its outputs to the next — the Critic Agent checks for issues
 
 ---
 
+## 📊 Key Visualisations
+
+### Customer Segmentation (RFM)
+![RFM Segments](figures/fig2_rfm_segments.png)
+
+### Churn Prediction Performance
+![Confusion Matrix](figures/fig3_churn_confusion.png)
+
+### Product Clustering (K-Means + PCA)
+![Clustering](figures/fig1_clustering.png)
+
+### Discount Strategy Insights
+![Discount](figures/fig4_discount_by_category.png)
+
+### Sentiment Analysis by Price Tier
+![Sentiment](figures/fig6_sentiment_by_tier.png)
+
+---
+
 ## Key Findings
 
 **Price does not drive customer satisfaction.** The Pearson correlation between product price and review score is r = −0.009 — statistically insignificant. Customers rate cheap products and expensive products roughly the same. Quality, fit, and fabric are the real satisfaction levers.
@@ -174,7 +193,7 @@ That is a fundamentally different use of marketing spend — effort directed whe
 
 ## 📓 View the Full Analysis
 
-Click `3457775_BD2_Advanced.ipynb` to view the complete notebook with all SQL queries, model outputs, figures, and multi-agent commentary rendered inline — no setup required.
+Click [`Full Analysis Notebook`](https://github.com/Imran3285/jcpenney-analytics/blob/main/3457775_BD2_Advanced.ipynb) to view the complete notebook with all SQL queries, model outputs, figures, and multi-agent commentary rendered inline — no setup required.
 
 ---
 
@@ -207,8 +226,8 @@ jcpenney-customer-targeting/
 ## Reproducing the Results
 
 ```bash
-git clone https://github.com/Imran3285/jcpenney-customer-targeting.git
-cd jcpenney-customer-targeting
+git clone https://github.com/Imran3285/jcpenney-analytics.git
+cd jcpenney-analytics
 pip install pandas numpy matplotlib scikit-learn scipy
 jupyter notebook "3457775_BD2_Advanced.ipynb"
 ```
